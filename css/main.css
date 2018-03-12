@@ -3,24 +3,22 @@
 /*@import "bootstrap";*/
 
 .navbar{
- background:#F97300;
+ background:#000000;
 }
 .nav-link , .navbar-brand{
- color: #f4f4f4;
+ color:#ff4d4d;
  cursor: pointer;
 }
 .nav-link{
  margin-right: 1em !important;
 }
 .nav-link:hover{
- background: #f4f4f4;
- color: #f97300;
+ background: #ff4d4d;
+ color: white;
 }
-.navbar-collapse{
- justify-content: flex-end;
-}
+
 .navbar-toggler{
-  background:#fff !important;
+  background:#ff4d4d;
 }
 
 /* navbar justified right */
@@ -35,3 +33,48 @@ background-color:#343a40!important
 background-color:#343a40!important
 }
 
+body {
+    padding-top: 40px;
+}
+
+/***** Content Areas ***/
+.adopt{
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+}
+.adopt h1{
+  color: #ff4d4d;
+}
+
+/***** WHY FOSTER SECTION *****/
+
+.why {
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+.why h1{
+  color: #ff4d4d;
+}
+
+/**** Search section ***/
+.box1{
+  border: 1px black solid;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.box1 h6{
+  color: #ff4d4d;
+}
+
+.footer{
+  background: #000000;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+.footer h6{
+  olor: #ff4d4d;
+}
