@@ -1,0 +1,80 @@
+/*for content only to push to bring file to git...considering bootstrap for project as well*/
+/*@import "bootstrap-sprockets";*/
+/*@import "bootstrap";*/
+
+.navbar{
+ background:#000000;
+}
+.nav-link , .navbar-brand{
+ color:#ff4d4d;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #ff4d4d;
+ color: white;
+}
+
+.navbar-toggler{
+  background:#ff4d4d;
+}
+
+/* navbar justified right */
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#343a40!important
+}
+
+body {
+    padding-top: 40px;
+}
+
+/***** Content Areas ***/
+.adopt{
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+}
+.adopt h1{
+  color: #ff4d4d;
+}
+
+/***** WHY FOSTER SECTION *****/
+
+.why {
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+.why h1{
+  color: #ff4d4d;
+}
+
+/**** Search section ***/
+.box1{
+  border: 1px black solid;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.box1 h6{
+  color: #ff4d4d;
+}
+
+.footer{
+  background: #000000;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+.footer h6{
+  olor: #ff4d4d;
+}
