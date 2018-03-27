@@ -151,3 +151,9 @@ body {
     display: none;
     overflow: hidden;
 }
+
+#map {
+  height: 415px;
+  width: 450px;
+  background-color: black;
+ }
