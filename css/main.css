@@ -47,6 +47,16 @@ body {
   color: #ff4d4d;
 }
 
+/****CONSIDER SECTION ***/
+.consider{
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+}
+.consider h1{
+  color: #ff4d4d;
+}
+
 /***** WHY FOSTER SECTION *****/
 
 .why {
