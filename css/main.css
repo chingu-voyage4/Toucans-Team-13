@@ -161,3 +161,14 @@ body {
     display: none;
     overflow: hidden;
 }
+
+/**** Footer section ***/
+
+.footer a:link, a:visited {
+    text-decoration: none;
+    color: #ff4d4d;
+}
+
+.footer a:hover {
+    color: #ccc;
+}
