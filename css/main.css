@@ -1,0 +1,163 @@
+/*for content only to push to bring file to git...considering bootstrap for project as well*/
+/*@import "bootstrap-sprockets";*/
+/*@import "bootstrap";*/
+
+.navbar{
+ background:#000000;
+}
+.nav-link , .navbar-brand{
+ color:#ff4d4d;
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+}
+.nav-link:hover{
+ background: #ff4d4d;
+ color: white;
+}
+
+.navbar-toggler{
+  background:#ff4d4d;
+}
+
+/* navbar justified right */
+.navbar-collapse{
+ justify-content: flex-end;
+}
+
+.bg-dark{
+background-color:#343a40!important
+}
+.bg-primary{
+background-color:#343a40!important
+}
+
+body {
+    padding-top: 40px;
+}
+
+/***** Content Areas ***/
+.adopt{
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+}
+.adopt h1{
+  color: #ff4d4d;
+}
+
+/****CONSIDER SECTION ***/
+.consider{
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+}
+.consider h1{
+  color: #ff4d4d;
+}
+
+/***** WHY FOSTER SECTION *****/
+
+.why {
+  background: #e6e6e6;
+  margin: 20px;
+  padding: 10px;
+  position: relative;
+}
+.why h1{
+  color: #ff4d4d;
+}
+
+/**** Search section ***/
+.box1{
+  border: 1px black solid;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.box1 h6{
+  color: #ff4d4d;
+}
+
+.footer{
+  background: #000000;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+.footer h6{
+  color: #ff4d4d;
+}
+
+/****header banner***/
+
+.header{
+ background-image: url('../img/dog.jpg');
+ background-attachment: fixed;
+ background-size: cover;
+ background-position: center;
+
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+
+#header-text{
+  margin-top: 15px;
+}
+
+.description{
+ position: absolute;
+ top: 30%;
+ margin: auto;
+ padding: 2em;
+}
+
+.description h1{
+ color: #ff4d4d;
+}
+
+.description p{
+ color: #ff4d4d;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+
+.description button{
+ border: 3px solid;
+ background-color: transparent;
+ color: #ff4d4d;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
