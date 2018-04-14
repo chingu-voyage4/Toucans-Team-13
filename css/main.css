@@ -120,12 +120,12 @@ body {
 }
 
 .description h1{
- color: #ff4d4d;
+ color: #FFFFFF;
 }
 
 .description p{
- color: #ff4d4d;
- font-size: 20px;
+ color: #FFFFFF;
+ font-size: 40px;
  width: 50%;
  line-height: 1.5;
 }
