@@ -45,18 +45,7 @@ body {
 }
 .adopt h1{
   color: #ff4d4d;
-}
-
-/***** WHY FOSTER SECTION *****/
-
-.why {
-  background: #e6e6e6;
-  margin: 20px;
-  padding: 10px;
-  position: relative;
-}
-.why h1{
-  color: #ff4d4d;
+  text-align: center;
 }
 
 /**** Search section ***/
@@ -126,6 +115,10 @@ body {
  color: #ff4d4d;
 }
 
+a{
+  color:#ff4d4d;
+}
+
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
     background-color: #eee;
@@ -154,6 +147,33 @@ body {
 
 #map {
   height: 415px;
-  width: 450px;
+  width: 50%;
   background-color: black;
+ }
+
+ /* media querys*/
+ @media (max-width:768px) {
+   body{
+     margin: 0px;
+     padding: 0px;
+   }
+   .adopt{
+     width: 100%;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     margin-left: 0px;
+     margin-right: 0px;
+   }
+   #map{
+     width: 100%;
+     margin:0px;
+   }
+   .cent-map{
+     margin: 0px;
+   }
+   .container{
+     width: 95%;
+
+   }
+
  }
