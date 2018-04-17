@@ -96,21 +96,11 @@ body {
  background-size: cover;
  background-position: inherit;
  
-
 }
 
-
-.overlay{
- position: absolute;
- min-height: 100%;
- min-width: 100%;
- left: 0;
- top: 0;
- 
-}
 
 .glassBackground {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255,255,255, 0.5);
   color: inherit;
 }
 
