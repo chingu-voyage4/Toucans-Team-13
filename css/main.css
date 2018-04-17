@@ -93,14 +93,11 @@ body {
 
 .header{
  background-image: url('../img/cute_dog.jpg');
-  background-attachment: fixed;
-  background-position: inherit;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+ background-size: cover;
+ background-position: inherit;
+ 
 
+}
 
 
 .overlay{
@@ -109,8 +106,7 @@ body {
  min-width: 100%;
  left: 0;
  top: 0;
- background-color: rgba(255,255,255, 0.5);
- color: inherit;
+ 
 }
 
 .glassBackground {
