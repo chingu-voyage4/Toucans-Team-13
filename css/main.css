@@ -93,11 +93,15 @@ body {
 
 .header{
  background-image: url('../img/cute_dog.jpg');
- background-attachment: fixed;
- background-size: cover;
- background-position: center;
-
+  background-attachment: fixed;
+  background-position: inherit;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
+
+
 
 .overlay{
  position: absolute;
